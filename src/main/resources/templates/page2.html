@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>STUDY HOME</title>
+</head>
+<body>
+
+<div class="container">
+    <div th:replace="fragments/bodyHeader :: bodyHeader"></div>
+    <div>
+        <h2>2번 Page 입니다.</h2>
+        <a class="btn btn-lg btn-secondary" href="/">Home</a>
+        <a class="btn btn-lg btn-secondary" href="/page1">페이지1</a>
+        <p></p>
+    </div>
+    <div th:replace="fragments/footer :: footer"/>
+</div>
+</body>
+</html>

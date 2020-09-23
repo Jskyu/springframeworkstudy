@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>STUDY HOME</title>
+</head>
+<body>
+
+<div class="container">
+    <div th:replace="fragments/bodyHeader :: bodyHeader"></div>
+    <div>
+        <h1>!!HTML AND CSS!!</h1>
+        <a class="btn btn-lg btn-primary" href="/page1">페이지1</a>
+        <a class="btn btn-lg btn-primary" href="/page2">페이지2</a>
+        <p></p>
+        <h2>무언가 만들 내용</h2>
+        <a class="btn btn-dark btn-block" href="/createPeople">정보 입력</a>
+        <a class="btn btn-dark btn-block" href="/peoples">정보 조회</a>
+    </div>
+    <div th:replace="fragments/footer :: footer"/>
+</div>
+</body>
+</html>
